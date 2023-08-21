@@ -25,7 +25,7 @@ def revip(url):
             pass
 
 logo = """
-Sysadmin presenet
+Made by https://t.me/sam4klo, channel: https://t.me/rtaxdrops
 """
 print(logo)
 
