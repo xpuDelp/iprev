@@ -1,5 +1,3 @@
-# The API used for reversing is down so it won't work
-
 # iprev
 Grabs list of domains from IP list
 
