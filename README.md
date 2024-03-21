@@ -11,4 +11,4 @@ cd iprev
 python Rev.py
 ```
 
-Requires python 2.7 to run
+Updates: Uses python 3, generates IPs automatically and asks for threads before generating and reversing
