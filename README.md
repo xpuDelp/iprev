@@ -12,3 +12,5 @@ python Rev.py
 ```
 
 Updates: Uses python 3, generates IPs automatically and asks for threads before generating and reversing
+
+Contact: https://t.me/natxsupport_bot
