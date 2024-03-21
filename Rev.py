@@ -5,12 +5,10 @@ import random
 import sys
 
 
-# Function to generate a random IPv4 address
 def generate_ip():
     return ".".join(str(random.randint(0, 255)) for _ in range(4))
 
-# Function to reverse IP
-def reverse_ip(url):
+ef reverse_ip(url):
     try:
         with requests.Session() as session:
             req = session.get('https://api.webscan.cc/?action=query&ip=' + url).text
@@ -26,7 +24,6 @@ def reverse_ip(url):
     except Exception as e:
         print('IP -> ' + url + ' ERROR: ' + str(e) + '\n')
 
-# Function to generate IPs and reverse them
 def generate_and_reverse_ips():
     ips = int(input("Enter the number of IPs to generate and reverse: "))
     ip_list = [generate_ip() for _ in range(ips)]
@@ -36,7 +33,6 @@ def generate_and_reverse_ips():
     pp = Pool(num_threads)
     pr = pp.map(reverse_ip, ip_list)
 
-# Main function
 def main():
     print("""
 Menu:    
