@@ -1,16 +1,38 @@
-# iprev
-Grabs list of domains from IP list
+# IP Reverse Lookup Script
 
-# Installation
+This Python script allows you to generate random IP addresses and perform reverse IP lookup to find associated domains. It utilizes the WebScan API for reverse IP lookup.
 
-```
-git clone https://github.com/xpuDelp/iprev.git
+## Requirements
 
-cd iprev
+- Python 3.x
+- Requests library (`pip install requests`)
 
-python Rev.py
-```
+## Usage
 
-Updates: Uses python 3, generates IPs automatically and asks for threads before generating and reversing
+1. Clone the repository or download the script `ip_reverse_lookup.py`.
+2. Make sure you have the required dependencies installed.
+3. Run the script by executing `python ip_reverse_lookup.py`.
+4. Follow the on-screen instructions to generate and reverse IPs.
 
-Contact: https://t.me/natxsupport_bot
+## Functionality
+
+The script provides the following functionality:
+
+- Generate a specified number of random IP addresses.
+- Perform reverse IP lookup for each generated IP address.
+- Exclude specific domain prefixes from the results.
+- Utilize multiple threads for faster processing.
+
+## Configuration
+
+- You can adjust the number of IPs to generate and reverse.
+- You can specify the number of threads to use for concurrent processing.
+
+## Disclaimer
+
+This script is provided for educational purposes only. Usage of this script for any unauthorized or malicious activities is strictly prohibited. The developers are not responsible for any misuse of this script.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
