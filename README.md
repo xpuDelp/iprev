@@ -9,9 +9,9 @@ This Python script allows you to generate random IP addresses and perform revers
 
 ## Usage
 
-1. Clone the repository or download the script `ip_reverse_lookup.py`.
+1. Clone the repository or download the script `Rev.py`.
 2. Make sure you have the required dependencies installed.
-3. Run the script by executing `python ip_reverse_lookup.py`.
+3. Run the script by executing `python Rev.py`.
 4. Follow the on-screen instructions to generate and reverse IPs.
 
 ## Functionality
